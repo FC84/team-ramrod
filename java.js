@@ -1,5 +1,7 @@
 var x = 2;
 
-function multiplyByTwo(num) {
+function multiplyByVar(num) {
 	return num * x;
 }
+
+multiplyByVar(3);
